@@ -7,3 +7,4 @@ If you're interested in hiring us for your own project, send an email at at okan
 
 We hope you enjoy exploring our website and finding inspiration for your own space. Thank you for considering us for your interior design needs
 
+WEBSITE STILL AT CONSTRUCTION
