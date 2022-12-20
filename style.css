@@ -1,0 +1,288 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #fff;
+}
+.logo{
+    position: absolute;
+    width: 100px;
+    top: 3%;
+    margin-left: 40px;
+}
+.nav .links{
+    position: absolute;
+    right: 10%;
+    top: 6%;
+}
+.links a{
+    text-decoration: none;
+    padding: 20px;
+    color: #1b2e41;
+    font-size: 20px;
+    font-family: fantasy;
+}
+.links a:hover{
+    font-weight: 700;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #1b2e41;
+}
+
+.content{
+    position: absolute;
+    width: 45%;
+    height: 40%;
+    left: 5%;
+    top: 11%;
+    background-color: #fff4d5d9;
+}
+.herocontent{
+    position: absolute;
+    width: 45%;
+    height: 40%;
+    right: 5%;
+    top: 11%;
+}
+.content span{
+    color: #1b2e41;
+    font-size: 5em;
+    margin: 25% 10%;
+    position: absolute;
+    font-weight: 900;
+    font-family: serif;
+    width: 20%;
+}
+.content div{
+    position: absolute;
+    width: 80%;
+    font-size: 20px;
+    margin: 72% 10%;
+    color: #1b2e41;
+    line-height: 40px;
+}
+.learnm{
+    color: black;
+    background-color: transparent;
+    padding: 20px 35px;
+    text-decoration: none;
+    cursor: pointer;
+    border: 1px solid black;
+    position: absolute;
+    margin: 0 10%;
+    top: 70%;
+}
+.learnm:hover{
+    background-color: #1b2e41;
+    color: white;
+}
+.content2{
+    position: absolute;
+    width: 90%;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%, -50%);
+    height: 25%;
+    background-color: #1b2e41;
+}
+.content2firstimage{
+    width: 28%;
+    height: 80%;
+    background-color: white;
+    margin: 40px;
+    margin-left: 40px;
+    border-radius: 5px;
+}
+.content2secondimage{
+    width: 28%;
+    height: 80%;
+    background-color: white;
+    position: absolute;
+    left: 50.4%;
+    border-radius: 5px;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.content2thirdimage{
+    width: 28%;
+    height: 80%;
+    border-radius: 5px;
+    background-color: white;
+    position: absolute;
+    right: 4%;
+    top: 10%;
+}
+.firstimg{
+    width: 220px;
+    margin: 14px;
+    height: 240px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.content2firstimage a{
+    margin: 15px;
+    color: lightgrey;
+    color: #1b2e41;
+    position: absolute;
+    font-size: 1.5em;
+    border-bottom: 3px solid #1b2e41;
+    text-decoration: none;
+}
+.content2firstimage a:hover{
+    font-weight: bold;
+    padding-right: 7px;
+    border-right: 3px solid #1b2e41;
+}
+.secondimg{
+    width: 220px;
+    margin: 14px;
+    height: 240px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.content2secondimage a{
+     margin: 15px;
+    color: #1b2e41;
+    position: absolute;
+    font-size: 1.5em;
+    border-bottom: 3px solid #1b2e41;
+    text-decoration: none;
+}
+.content2secondimage a:hover{
+    font-weight: bold;
+    padding-right: 7px;
+    border-right: 3px solid #1b2e41;
+}
+.thirdimg{
+    width: 220px;
+    margin: 14px;
+    height: 240px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.content2thirdimage a{
+      margin: 15px;
+    color: #1b2e41;
+    position: absolute;
+    font-size: 1.5em;
+    border-bottom: 3px solid #1b2e41;
+    text-decoration: none;
+}
+.content2thirdimage a:hover{
+    font-weight: bold;
+    padding-right: 7px;
+    border-right: 3px solid #1b2e41;
+}
+.content3{
+    width: 100%;
+    height: 250%;
+    background-color: white;
+}
+.esse{
+    position: absolute;
+    left: 50%;
+    margin-top: 7%;
+    font-size: 22px;
+    color: #1b2e41;
+    font-family: fantasy;
+    font-weight: 600;
+    transform: translate(-50%, -50%);
+}
+.latest{
+    position: absolute;
+    left: 50%;
+    margin-top: 15%;
+    font-family: fantasy;
+    font-weight: 100;
+    width: 100%;
+    text-align: center;
+    font-size: 60px;
+    transform: translate(-50%, -50%);
+    color: #ffdfaa;
+}
+.content3image1{
+    position: relative;
+    width: 250px;
+    margin-top: 25%;
+    margin-left: 5%;
+}
+.content3image2{
+    position: relative;
+    width: 250px;
+    margin-top: 25%;
+    margin-left: 2%;
+}
+.content3image3{
+    position: relative;
+    width: 250px;
+    margin-top: 25%;
+    margin-left: 2%;
+}
+.content3image span{
+    position: absolute;
+    left: 5%;
+}
+.content3imagetext1{
+    font-size: 20px;
+    margin: 5%;
+    font-size: 25px;
+    position: relative;
+    margin-top: 10px;
+    font-family: fantasy;
+}
+.content3imagetext2{
+    position: absolute;
+    left: 45%;
+    font-family: fantasy;
+    margin-top: -60px;
+    font-size: 25px;
+    transform: translate(-50%, -50%);
+}
+.content3imagetext3{
+    position: absolute;
+    right: 15%;
+    margin-top: -75px;
+    font-family: fantasy;
+    font-size: 25px;
+}
+.content3imagetext1span{
+    font-size: 15px;
+    margin: 5%;
+    font-size: 20px;
+    font-family: fantasy;
+    position: relative;
+    font-weight: bolder;
+    margin-top: -4%;
+}
+.content3imagetext2span{
+    position: absolute;
+    left: 40%;
+    margin-top: -7%;
+    font-family: fantasy;
+    font-size: 20px;
+    transform: translate(-50%, -50%);
+    font-weight: bolder;
+}
+.content3imagetext3span{
+    position: absolute;
+    right: 25%;
+    margin-top: -75px;
+    font-family: fantasy;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.content3shop{
+    position: absolute;
+    margin: 5%;
+    margin-top: -5%;
+}
+.content3shopp{
+    position: absolute;
+    left: 35%;
+}
+.content3shoppp{
+    position: absolute;
+    right: 25%;
+}
